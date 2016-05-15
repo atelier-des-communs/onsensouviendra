@@ -2,22 +2,42 @@
 layout: default
 ---
 
-<div class="home">
+<div class="article">
 
-  <h1 class="page-heading">Posts</h1>
+  <h1 class="page-heading"><a name="#">Introduction</a></h1>
 
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+  {% markdown %}
+Ce site reproduit la liste des députés ayant signé une motion de censure contre le gouvernement, en réponse au 49-3 utilisé pour passer en force [la loi-travail](http://loitravail.lol/).
 
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
+Nous publions une lettre ouverte nominative pour chacun de ces députés, les exhortant à voter les prochaines motions de censures, qu'elles soient déposées par la droite ou par la gauche.
 
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+La plupart des députés signataires de la motion de gauche ont en effet réfusé de signer la motion de droite, strictement identique dans ses effets (dissolution du gouvernement et blocage de la loi travail), pour ne pas "méler leurs votes à ceux de la droite".
+
+Ce site est un relais à une [pétition ayant recueilli plus de 300.000 signatures](https://www.change.org/p/d%C3%A9put%C3%A9s-socialistes-soutenez-la-motion-de-censure-pour-que-la-loitravail-ne-voit-pas-le-jour), et un [appel vidéo de Osons Causer](https://www.youtube.com/watch?v=NBcwvU2QHWg), vu plus de 5 millions de fois et partagé plus de 200.000 fois [sur Facebook](https://www.facebook.com/osonscauser/videos/1073548676050486/), ceci en moins de 48h.
+
+Nous considérons la loi travail comme une régression inacceptable du droit du travail, et comme l'ultime trahison d'un executif qui n'a eu de cesse de renier ses engagements de campagne, et de servir les intérêts d'une caste, au détriment du bien commun. 
+
+Nous considérons le non-vote de censure par les députés comme une complicité active de cette trahison, un viol de la souverineté populaire, et un manquement caractérisé à leur devoir de représentation.
+
+  {% endmarkdown %}
+
+
+  <h1 class="page-heading"><a name="video">L'appel en vidéo</a></h1>
+
+  <iframe width="640" height="360" src="https://www.youtube.com/embed/NBcwvU2QHWg" frameborder="0" allowfullscreen></iframe>
+
+  <h1 class="page-heading"><a name="lettres">Lettres ouvertes</a></h1>
+
+  {% for depute in site.data.deputes %}
+    <h4>
+      <a class="post-link" href="/deputes/{{ depute.id }}.html">{{ depute.nom }} ({{ depute.parti }})
+        {% if depute['censure-1'] == "1" %}
+          <span class="label label-success"><span class="glyphicon glyphicon-ok"></span><b>Voté</b></span>
+        {% else %}
+          <span class="label label-warning"><span class="glyphicon glyphicon-remove"></span><b>Non voté</b></span>
+        {% endif %}
+      </a>
+    </h4>
+  {% endfor %} 
 
 </div>
