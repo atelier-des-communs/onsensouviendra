@@ -4,18 +4,19 @@ layout: default
 
 
 {% if page.genre == "M" %}
-	{% assign prefixe = "monsieur " %}
-	{% assign pref = "Mr " %}
-	{% assign hommeFemme = "un homme " %}
+{% assign prefixe = "monsieur " %}
+{% assign pref = "Mr " %}
+{% assign hommeFemme = "un homme " %}
 {% else %}
-	{% assign prefixe = "madame " %}
-	{% assign pref = "Mme " %}
-	{% assign hommeFemme = "une femme " %}
+{% assign prefixe = "madame " %}
+{% assign pref = "Mme " %}
+{% assign hommeFemme = "une femme " %}
 {% endif %}
-
+<div class="container">
 <div class="row">
-	<div class="article col-md-8">
-    	<h1 class="post-title">Lettre ouverte à {{ prefixe }}{{ page.nom }}</h1>
+    <h1 class="post-title col-sm-12">Lettre ouverte à {{ prefixe }}{{ page.nom }}</h1>
+	<div class="article col-xs-12 col-sm-8 col-md-8">
+
 
     	{% markdown %}
     		{%include lettre.md %}
@@ -25,15 +26,10 @@ layout: default
 
 {{ page.nom }} n'a pas encore apporté de réponse à cette lettre ouverte.
 
-Vous pouvez envoyer vos réponses à <a href="mailto:contact@onsensouviendra.fr">contact@onsensouviendra.fr</a>
 
+	</div>
+	<div class="blog-sidebar col-xs-12 col-sm-4 col-md-4">
 
-<h1>Commentaires</h1>
-
-	{% include disqus.html id=page.id %}
-	
-	<div class="col-md-4 blog-sidebar">
-		
 		<div class="fiche sidebar-module sidebar-module-inset">
 			<h3>{{ pref }}{{ page.nom }}</h3>
 			<img src="img/{{ page.id }}.jpg">
@@ -66,13 +62,42 @@ Vous pouvez envoyer vos réponses à <a href="mailto:contact@onsensouviendra.fr"
 				</p>
 			{% else %}
 				<span class="label label-warning"><span class="glyphicon glyphicon-remove"></span><b>Non voté</b></span>
-				</h4>
-				<p>
+            </h4>
+            <p>
 					{{ pref }}{{ page.nom }} donne sa confiance au gouvernement et ne fait pas barrage à la loi travail.
-				</p>	
+				</p>
 			{% endif %}
 		</div>
 
 
 	</div>
+
+    <div class="row">
+        <div class="col-xs-12">
+    	<div id="disqus_thread"></div>
+    	<script>
+			var disqus_config = function () {
+                this.page.identifier = {
+                {
+                    page.id
+                }
+            }
+                ;
+            };
+
+            (function () {
+                var d = document, s = d.createElement('script');
+                s.src = '//onsensouviendra.disqus.com/embed.js';
+                s.setAttribute('data-timestamp', +new Date());
+                (d.head || d.body).appendChild(s);
+            })();
+		</script>
+		<noscript>Please enable JavaScript to view the
+			<a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a>
+		</noscript>
+        </div>
+</div>
+
+
+</div>
 </div>

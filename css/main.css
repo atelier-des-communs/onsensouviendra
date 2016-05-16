@@ -3,7 +3,8 @@
  */
 
 .article {
-    padding: 10px;
+    padding-top: 2em;
+    padding-bottom: 2em;
 }
 
 .site-footer {
@@ -263,6 +264,10 @@ h1 {
 
 .list__item .glyphicon { margin-right: 5px; }
 
+.list__item .label {
+    padding: 0 .6em;
+}
+
 /*
 * iframe
 */
@@ -275,7 +280,13 @@ iframe {
 * Label
 */
 .label {
-    padding: 0 .6em;
+    padding: .2em .6em;
+}
+
+.label span,
+.label b {
+    vertical-align: middle;
+    line-height: 23px;
 }
 
 /*
@@ -316,3 +327,5 @@ iframe {
         font-size: 400% !important;
     }
 }
+
+.dsq-comment-header { white-space: normal !important; }
