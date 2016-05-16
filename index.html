@@ -1,10 +1,12 @@
 ---
 layout: default
 ---
+<div class="container">
+    <div class="row">
+<div class="article col-sm-8 col-sm-push-2">
 
-<div class="article">
-
-  <h1 class="page-heading"><a name="#">Introduction</a></h1>
+    <a name="accueil"></a>
+  <h2 class="page-heading">Introduction</h2>
 
   {% markdown %}
 Ce site reproduit la liste des députés ayant signé une motion de censure contre le gouvernement, en réponse au 49-3 utilisé pour passer en force [la loi-travail](http://loitravail.lol/).
@@ -21,23 +23,32 @@ Nous considérons le non-vote de censure par les députés comme une complicité
 
   {% endmarkdown %}
 
+  <a name="video"></a>
+  <h2 class="page-heading">L'appel en vidéo</h2>
 
-  <h1 class="page-heading"><a name="video">L'appel en vidéo</a></h1>
+  <iframe width="640"
+          height="360"
+          src="https://www.youtube.com/embed/NBcwvU2QHWg"
+          frameborder="0"
+          allowfullscreen></iframe>
 
-  <iframe width="640" height="360" src="https://www.youtube.com/embed/NBcwvU2QHWg" frameborder="0" allowfullscreen></iframe>
+    <a name="lettres"></a>
+  <h2 class="page-heading">Lettres ouvertes</h2>
 
-  <h1 class="page-heading"><a name="lettres">Lettres ouvertes</a></h1>
-
-  {% for depute in site.data.deputes %}
-    <h4>
-      <a class="post-link" href="/deputes/{{ depute.id }}.html">{{ depute.nom }} ({{ depute.parti }})
-        {% if depute['censure-1'] == "1" %}
-          <span class="label label-success"><span class="glyphicon glyphicon-ok"></span><b>Voté</b></span>
-        {% else %}
-          <span class="label label-warning"><span class="glyphicon glyphicon-remove"></span><b>Non voté</b></span>
-        {% endif %}
-      </a>
-    </h4>
-  {% endfor %} 
-
+    <ul class="list">
+      {% for depute in site.data.deputes %}
+        <li class="list__item">
+          <a class="post-link" href="/deputes/{{ depute.id }}.html">
+              <span class="post-link__name left">{{ depute.nom }} ({{ depute.parti }})</span>
+            {% if depute['censure-1'] == "1" %}
+              <span class="label label-success right"><span class="glyphicon glyphicon-ok"></span><b>Voté</b></span>
+            {% else %}
+              <span class="label label-warning right"><span class="glyphicon glyphicon-remove"></span><b>Non voté</b></span>
+            {% endif %}
+          </a>
+        </li>
+      {% endfor %}
+   </ul>
+</div>
+</div>
 </div>
