@@ -10,7 +10,13 @@
 
       <div class="container">
         <nav class="blog-nav">
+<<<<<<< HEAD
+          <a class="blog-nav-item active" href="/">Accueil</a>
+=======
           <a class="blog-nav-item active" href="/#accueil">Accueil</a>
+          <a class="blog-nav-item" href="https://www.change.org/p/d%C3%A9put%C3%A9s-socialistes-soutenez-la-motion-de-censure-pour-que-la-loitravail-ne-voit-pas-le-jour">Pétition</a>
+          <a class="blog-nav-item" href="/#video">Appel vidéo</a>
+>>>>>>> 03b3cb5a794b6999f9afb9ab33d9b74c4f187df1
           <a class="blog-nav-item" href="/#lettres">Lettres ouvertes</a>
           <a class="blog-nav-item" href="/#video">Appel vidéo</a>
           <a class="blog-nav-item" href="https://www.change.org/p/d%C3%A9put%C3%A9s-socialistes-soutenez-la-motion-de-censure-pour-que-la-loitravail-ne-voit-pas-le-jour">Pétition</a>

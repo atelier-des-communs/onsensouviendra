@@ -6,13 +6,13 @@
     Allain, parti: Europe Écologie Les Verts, site: www.brigitteallain.eelv.fr}
 - {censure-1: '1', departement: Français établis hors de France, email_1: pamirshahi@assemblee-nationale.fr,
   genre: M, groupe: Non inscrit, id: pouria-amirshahi, motion-gauche: '1', nom: Pouria
-    Amirshahi, parti: Parti socialiste, site: www.pouriaamirshahi.fr}
+    Amirshahi, parti: Inépendant, site: www.pouriaamirshahi.fr}
 - {censure-1: '1', departement: Seine-Saint-Denis, email_1: fasensi@assemblee-nationale.fr,
   genre: M, groupe: Gauche démocrate et républicaine, id: francois-asensi, motion-gauche: '1',
   nom: François Asensi, parti: Forces de Gauche, site: www.francoisasensi.com}
 - {censure-1: '1', departement: Calvados, email_1: iattard@assemblee-nationale.fr,
   genre: F, groupe: Écologiste, id: isabelle-attard, motion-gauche: '1', nom: Isabelle
-    Attard, parti: Europe Écologie Les Verts, site: isabelleattard.fr}
+    Attard, parti: indépendante, site: isabelleattard.fr}
 - {departement: Puy-de-Dôme, email_1: dauroi@assemblee-nationale.fr, genre: F, groupe: Écologiste,
   id: danielle-auroi, motion-gauche: '1', nom: Danielle Auroi, parti: Europe Écologie
     Les Verts, site: null}
@@ -59,7 +59,7 @@
     Coronado, parti: Europe Écologie Les Verts, site: sergiocoronado.fr}
 - {censure-1: '1', departement: Nord, email_1: mdolez@assemblee-nationale.fr, email_2: contact@marc-dolez.org,
   genre: M, groupe: Gauche démocrate et républicaine, id: marc-dolez, motion-gauche: '1',
-  nom: Marc Dolez, parti: Parti communiste français, site: www.marc-dolez.net}
+  nom: Marc Dolez, parti: FDG, site: www.marc-dolez.net}
 - {departement: Paris, email_1: cduflot@assemblee-nationale.fr, genre: F, groupe: Écologiste,
   id: cecile-duflot, motion-gauche: '1', nom: Cécile Duflot, parti: Europe Écologie
     Les Verts, site: null}

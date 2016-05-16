@@ -1,12 +1,15 @@
 ---
 layout: default
 ---
+<div class="container">
+    <div class="row">
+<div class="article col-sm-8 col-sm-push-2">
 
-<div class="article">
+    <a name="accueil"></a>
+  <h2 class="page-heading">Introduction</h2>
 
-  <h1 class="page-heading"><a name="#">Introduction</a></h1>
+{% markdown %}
 
-  {% markdown %}
 Ce site reproduit la liste des députés signataires de la motion de censure de gauche contre le gouvernement, en réponse au 49-3 utilisé pour passer en force [la loi-travail](http://loitravail.lol/).
 
 La motion de gauche n'a jamais vu le jour, faute de suffisamment de signataires. 
@@ -21,41 +24,34 @@ Nous considérons la loi travail comme une régression inacceptable du droit du 
 
 Nous considérons le non-vote de censure par les députés comme une complicité active de cette trahison, un viol de la souverineté populaire, et un manquement caractérisé à leur devoir de représentation.
 
-  {% endmarkdown %}
+{% endmarkdown %}
 
-<h1 class="page-heading"><a name="#">À vous !</a></h1>
+  <a name="video"></a>
+  <h2 class="page-heading">L'appel en vidéo</h2>
 
-  {% markdown %}
+  <iframe width="640"
+          height="360"
+          src="https://www.youtube.com/embed/NBcwvU2QHWg"
+          frameborder="0"
+          allowfullscreen></iframe>
 
-  Nous vous invitons à transmettre ces lettres individuelles à vos députés, par email (que vous trouverez sur la fiche de chaque député), pour sur les réseaux sociaux (la plupart des députés ontun compte twitter ou Facebook).
+    <a name="lettres"></a>
+  <h2 class="page-heading">Lettres ouvertes</h2>
 
-  Action !
-  
-  {% endmarkdown %}
-
-
-  <h1 class="page-heading"><a name="video">L'appel en vidéo</a></h1>
-
-
-
-  <iframe width="640" height="360" src="https://www.youtube.com/embed/NBcwvU2QHWg" frameborder="0" allowfullscreen></iframe>
-
-  <h1 class="page-heading"><a name="lettres">Lettres ouvertes</a></h1>
-
-  {% for depute in site.data.deputes %}
-    <h4>
-      <a class="post-link" href="/deputes/{{ depute.id }}.html">{{ depute.nom }} ({{ depute.parti }})
-        {% if depute['censure-1'] == "1" %}
-          <span class="label label-success"><span class="glyphicon glyphicon-ok"></span><b>Voté</b></span>
-        {% else %}
-          <span class="label label-warning"><span class="glyphicon glyphicon-remove"></span><b>Non voté</b></span>
-        {% endif %}
-      </a>
-    </h4>
-  {% endfor %} 
-
-   <h1 class="page-heading"><a name="commentaires">Commentaires</a></h1>
-
-  {% include disqus.html id="accueil" %}
-
+    <ul class="list">
+      {% for depute in site.data.deputes %}
+        <li class="list__item">
+          <a class="post-link" href="/deputes/{{ depute.id }}.html">
+              <span class="post-link__name left">Lettre ouverte à {{ depute.nom }} ({{ depute.parti }})</span>
+            {% if depute['censure-1'] == "1" %}
+              <span class="label label-success right"><span class="glyphicon glyphicon-ok"></span><b>Voté</b></span>
+            {% else %}
+              <span class="label label-warning right"><span class="glyphicon glyphicon-remove"></span><b>Non voté</b></span>
+            {% endif %}
+          </a>
+        </li>
+      {% endfor %}
+   </ul>
+</div>
+</div>
 </div>
