@@ -1,0 +1,45 @@
+<html>
+<head>
+	<meta charset="UTF-8">
+</head>
+
+
+{% if page.genre == "M" %}
+	{% assign prefixe = "monsieur " %}
+	{% assign pref = "Mr " %}
+	{% assign hommeFemme = "un homme " %}
+{% else %}
+	{% assign prefixe = "madame " %}
+	{% assign pref = "Mme " %}
+	{% assign hommeFemme = "une femme " %}
+{% endif %}
+
+
+{% markdown %}
+
+{{ prefixe | capitalize }} {{page.nom}} ,
+
+Une lettre ouverte, faisant suite à une [pétition signée par plus de 350.000 personnes](https://www.change.org/p/d%C3%A9put%C3%A9s-socialistes-soutenez-la-motion-de-censure-pour-que-la-loitravail-ne-voit-pas-le-jour) et à [un appel vidéo visionné plus de 5 millions de fois](https://www.facebook.com/osonscauser/videos/1073548676050486/), a été publiée ici :
+
+[http://onsensouviendra.fr/deputes/{{page.id}}.html](http://onsensouviendra.fr/deputes/{{page.id}}.html)
+
+Cette lettre, argumentée, {% if page['censure-1'] == "1" %} vous invite à voter de nouveau la prochaine motion de censure, qu'elle soit déposée par la gauche ou la droite, et à défendre cette cause  auprès de vos collègues {% else %} vous exhorte à aller au bout de vos convictions et à voter la prochaine motion, qu'elle soit déposée par la droite ou la gauche, et quel qu'en soit le texte l'accompagnant, qui n'a aucune valeur légale et dont il est facile de vous détacher (comme l'a fait [Philippe Noguès](http://pnogues.fr/2016/05/12/pourquoi-jai-vote-la-censure/)) {% endif %}
+
+Vous pouvez y apporter une réponse à :
+contact@onsensouviendra.fr
+
+Cordialement,
+
+Raphaël Jolivet, pour OnSenSouviendra.fr
+
+--
+
+Voici la lettre en question:  
+
+
+    		{%include lettre.md %}
+
+
+{% endmarkdown %}
+
+</html>

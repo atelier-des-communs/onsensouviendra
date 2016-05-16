@@ -7,6 +7,14 @@
   max-width : 600px;
 }
 
+.site-footer {
+  background-color : #428BCA;
+  padding: 20px;
+}
+.site-footer a {
+  color: white;
+}
+
 #entete {
   background: url("/img/assemblee.jpg") no-repeat;
   background-size: cover;

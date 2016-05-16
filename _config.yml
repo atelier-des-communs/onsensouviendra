@@ -3,8 +3,7 @@ title: >
   49-3 : On s'en souviendra
 email: your-email@domain.com
 description: > # this means to ignore newlines until "baseurl:"
-  49-3 : On s'en souviendra ! 
-  Lettres ouvertes aux députés, et archivage de leurs votes pour les motions de censure au 49-3.
+  Lettres ouvertes aux députés signataires de la motion de gauche, et archivage de leurs votes pour les motion à venir.
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://onsensouviendra.fr" # the base hostname & protocol for your site
 twitter_username: jekyllrb
@@ -15,6 +14,10 @@ page_gen:
     template: 'depute'
     name: 'id'
     dir: 'deputes'
+  - data: 'deputes'
+    template: 'email'
+    name: 'id'
+    dir: 'lettres'
 
 # Build settings
 markdown: kramdown
