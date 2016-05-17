@@ -43,15 +43,30 @@ Nous considérons le non-vote de censure par les députés comme une complicité
         <li class="list__item">
           <a class="post-link" href="/deputes/{{ depute.id }}.html">
               <span class="post-link__name left">Lettre ouverte à {{ depute.nom }} ({{ depute.parti }})</span>
+          </a>
+
+
+          <a class="post-link" href="/deputes/{{ depute.id }}.html">
             {% if depute['censure-1'] == "1" %}
               <span class="label label-success right"><span class="glyphicon glyphicon-ok"></span><b>Voté</b></span>
             {% else %}
               <span class="label label-warning right"><span class="glyphicon glyphicon-remove"></span><b>Non voté</b></span>
             {% endif %}
           </a>
+
+            {%if site.data.reponses[depute.id] %}
+            <a class="post-link" href="/deputes/{{ depute.id }}.html#reponse">
+              <span class="label label-info right"><span class="glyphicon glyphicon-envelope"></span><b>Réponse</b></span>
+            </a>
+          {% endif %}
         </li>
       {% endfor %}
    </ul>
+
+<h2 class="page-heading">Commentaires</h2>
+
+  {% include disqus.html id="accueil" %}
+
 </div>
 </div>
 </div>

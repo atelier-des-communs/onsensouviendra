@@ -7,6 +7,7 @@ import re
 
 from unicodedata import normalize
 import codecs
+import os
 
 PUNCT_REGEXP = re.compile(r'[\t !"#$%&\'()*\-/<=>?@\[\\\]^_`{|},.:]+')
 DATA_FILES_PATTERN = "_data/%s.csv"
@@ -30,6 +31,7 @@ def jointFlag(key, deputesMap) :
 			raise "Depute non trouve : %s" % (id)
 		else :
 			deputesMap[id][key] = "1"
+		
 
 # Transform list of deputes to list by id
 # The Dict is ordered, by surname
@@ -83,6 +85,7 @@ deputesMap = toDictById(deputes)
 # Jointure with other data flags in other files
 jointFlag("motion-gauche", deputesMap)
 jointFlag("censure-1", deputesMap)
+
 
 deputesMap = filterMotionGauche(deputesMap)
 

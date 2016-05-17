@@ -1,0 +1,171 @@
+- {departement: Val-de-Marne, email_1: labeille@assemblee-nationale.fr, genre: F,
+  groupe: Écologiste, id: laurence-abeille, motion-gauche: '1', nom: Laurence Abeille,
+  parti: Europe Écologie Les Verts, site: null}
+- {departement: Dordogne, email_1: ballain@assemblee-nationale.fr, email_2: permanence.ballain@orange.fr,
+  genre: F, groupe: Écologiste, id: brigitte-allain, motion-gauche: '1', nom: Brigitte
+    Allain, parti: Europe Écologie Les Verts, site: www.brigitteallain.eelv.fr}
+- {censure-1: '1', departement: Français établis hors de France, email_1: pamirshahi@assemblee-nationale.fr,
+  genre: M, groupe: Non inscrit, id: pouria-amirshahi, motion-gauche: '1', nom: Pouria
+    Amirshahi, parti: Indépendant, site: www.pouriaamirshahi.fr}
+- {censure-1: '1', departement: Seine-Saint-Denis, email_1: fasensi@assemblee-nationale.fr,
+  genre: M, groupe: Gauche démocrate et républicaine, id: francois-asensi, motion-gauche: '1',
+  nom: François Asensi, parti: Forces de Gauche, site: www.francoisasensi.com}
+- {censure-1: '1', departement: Calvados, email_1: iattard@assemblee-nationale.fr,
+  genre: F, groupe: Écologiste, id: isabelle-attard, motion-gauche: '1', nom: Isabelle
+    Attard, parti: indépendante, site: isabelleattard.fr}
+- {departement: Puy-de-Dôme, email_1: dauroi@assemblee-nationale.fr, genre: F, groupe: Écologiste,
+  id: danielle-auroi, motion-gauche: '1', nom: Danielle Auroi, parti: Europe Écologie
+    Les Verts, site: null}
+- {departement: Hauts-de-Seine, email_1: abachelay@assemblee-nationale.fr, genre: M,
+  groupe: 'Socialiste, républicain et citoyen', id: alexis-bachelay, motion-gauche: '1',
+  nom: Alexis Bachelay, parti: Parti socialiste, site: null}
+- {departement: Indre-et-Loire, email_1: lbaumel@assemblee-nationale.fr, genre: M,
+  groupe: 'Socialiste, républicain et citoyen', id: laurent-baumel, motion-gauche: '1',
+  nom: Laurent Baumel, parti: Parti socialiste, site: null}
+- {departement: Réunion, email_1: huguette.bello@wanadoo.fr, email_2: hbello@assemblee-nationale.fr,
+  genre: F, groupe: Gauche démocrate et républicaine, id: huguette-bello, motion-gauche: '1',
+  nom: Huguette Bello, parti: 'Pour la Réunion, de toutes nos forces', site: null}
+- {censure-1: '1', departement: Nord, email_1: bocquet.alain2@wanadoo.fr, email_2: abocquet@assemblee-nationale.fr,
+  genre: M, groupe: Gauche démocrate et républicaine, id: alain-bocquet, motion-gauche: '1',
+  nom: Alain Bocquet, parti: Parti communiste français, site: null}
+- {departement: Isère, email_1: mbonneton@assemblee-nationale.fr, genre: F, groupe: Écologiste,
+  id: michele-bonneton, motion-gauche: '1', nom: Michèle Bonneton, parti: Europe Écologie
+    Les Verts, site: null}
+- {departement: Indre, email_1: deputee@isabellebruneau.fr, email_2: ibruneau@assemblee-nationale.fr,
+  genre: F, groupe: 'Socialiste, républicain et citoyen', id: isabelle-bruneau, motion-gauche: '1',
+  nom: Isabelle Bruneau, parti: Parti socialiste, site: www.isabellebruneau.fr}
+- {departement: Paris, email_1: fcarrey-conte@assemblee-nationale.fr, genre: F, groupe: 'Socialiste,
+    républicain et citoyen', id: fanelie-carrey-conte, motion-gauche: '1', nom: Fanélie
+    Carrey-Conte, parti: Parti socialiste, site: www.faneliecarreyconte.com}
+- {censure-1: '1', departement: Oise, email_1: pcarvalho@assemblee-nationale.fr, email_2: patrice.carvalho@hotmail.fr,
+  genre: M, groupe: Gauche démocrate et républicaine, id: patrice-carvalho, motion-gauche: '1',
+  nom: Patrice Carvalho, parti: Parti communiste français, site: www.patricecarvalho.com}
+- {censure-1: '1', departement: Bouches-du-Rhône, email_1: gcharroux@assemblee-nationale.fr,
+  email_2: secretariat-charroux@ville-martigues.fr, genre: M, groupe: Gauche démocrate
+    et républicaine, id: gaby-charroux, motion-gauche: '1', nom: Gaby Charroux, parti: Parti
+    communiste français, site: null}
+- {censure-1: '1', departement: Puy-de-Dôme, email_1: achassaigne@assemblee-nationale.fr,
+  email_2: chassaigne.a@wanadoo.fr, genre: M, groupe: Gauche démocrate et républicaine,
+  id: andre-chassaigne, motion-gauche: '1', nom: André Chassaigne, parti: Parti communiste
+    français, site: www.andrechassaigne.org}
+- {departement: Seine-Maritime, email_1: dominique.chauvel@gmail.com, email_2: dchauvel@assemblee-nationale.fr,
+  genre: F, groupe: 'Socialiste, républicain et citoyen', id: dominique-chauvel, motion-gauche: '1',
+  nom: Dominique Chauvel, parti: Parti socialiste, site: www.dominiquechauvel.fr}
+- {departement: Paris, email_1: pcherki@assemblee-nationale.fr, genre: M, groupe: 'Socialiste,
+    républicain et citoyen', id: pascal-cherki, motion-gauche: '1', nom: Pascal Cherki,
+  parti: Parti socialiste, site: www.pascal-cherki.fr}
+- {censure-1: '1', departement: Français établis hors de France, email_1: scoronado@assemblee-nationale.fr,
+  genre: M, groupe: Écologiste, id: sergio-coronado, motion-gauche: '1', nom: Sergio
+    Coronado, parti: Europe Écologie Les Verts, site: sergiocoronado.fr}
+- {censure-1: '1', departement: Nord, email_1: mdolez@assemblee-nationale.fr, email_2: contact@marc-dolez.org,
+  genre: M, groupe: Gauche démocrate et républicaine, id: marc-dolez, motion-gauche: '1',
+  nom: Marc Dolez, parti: FDG, site: www.marc-dolez.net}
+- {departement: Paris, email_1: cduflot@assemblee-nationale.fr, genre: F, groupe: Écologiste,
+  id: cecile-duflot, motion-gauche: '1', nom: Cécile Duflot, parti: Europe Écologie
+    Les Verts, site: null}
+- {departement: Moselle, email_1: afilippetti@assemblee-nationale.fr, genre: F, groupe: 'Socialiste,
+    républicain et citoyen', id: aurelie-filippetti, motion-gauche: '1', nom: Aurélie
+    Filippetti, parti: Parti socialiste, site: www.aureliefilippetti.fr}
+- {censure-1: '1', departement: Hauts-de-Seine, email_1: jfraysse@assemblee-nationale.fr,
+  genre: F, groupe: Gauche démocrate et républicaine, id: jacqueline-fraysse, motion-gauche: '1',
+  nom: Jacqueline Fraysse, parti: Forces de Gauche, site: null}
+- {departement: Deux-Sèvres, email_1: deputee@genevieve-gaillard.com, email_2: ggaillard@assemblee-nationale.fr,
+  genre: F, groupe: 'Socialiste, républicain et citoyen', id: genevieve-gaillard,
+  motion-gauche: '1', nom: Geneviève Gaillard, parti: Parti socialiste, site: null}
+- {departement: Cher, email_1: ygalut@assemblee-nationale.fr, email_2: yann.galut@yahoo.fr,
+  genre: M, groupe: 'Socialiste, républicain et citoyen', id: yann-galut, motion-gauche: '1',
+  nom: Yann Galut, parti: Parti socialiste, site: yann-galut.com}
+- {censure-1: '1', departement: Seine-Saint-Denis, email_1: mgbuffet@assemblee-nationale.fr,
+  genre: F, groupe: Gauche démocrate et républicaine, id: marie-george-buffet, motion-gauche: '1',
+  nom: Marie-George Buffet, parti: Parti communiste français, site: null}
+- {departement: Tarn, email_1: contact@lindagourjade.fr, genre: F, groupe: 'Socialiste,
+    républicain et citoyen', id: linda-gourjade, motion-gauche: '1', nom: Linda Gourjade,
+  parti: Parti socialiste, site: www.lindagourjade.fr}
+- {departement: Saône-et-Loire, email_1: egueugneau@assemblee-nationale.fr, genre: F,
+  groupe: 'Socialiste, républicain et citoyen', id: edith-gueugneau, motion-gauche: '1',
+  nom: Edith Gueugneau, parti: Parti socialiste, site: www.edithgueugneau.fr}
+- {departement: Yvelines, email_1: bhamon@assemblee-nationale.fr, genre: M, groupe: 'Socialiste,
+    républicain et citoyen', id: benoit-hamon, motion-gauche: '1', nom: Benoît Hamon,
+  parti: Parti socialiste, site: benoithamon.fr}
+- {departement: Seine-Saint-Denis, email_1: mhanotin@assemblee-nationale.fr, genre: M,
+  groupe: 'Socialiste, républicain et citoyen', id: mathieu-hanotin, motion-gauche: '1',
+  nom: Mathieu Hanotin, parti: Parti socialiste, site: null}
+- {departement: Nord, email_1: chutin@assemblee-nationale.fr, genre: M, groupe: 'Socialiste,
+    républicain et citoyen', id: christian-hutin, motion-gauche: '1', nom: Christian
+    Hutin, parti: Parti socialiste, site: null}
+- {censure-1: '1', departement: Nord, email_1: jjcandelier@assemblee-nationale.fr,
+  genre: M, groupe: Gauche démocrate et républicaine, id: jean-jacques-candelier,
+  motion-gauche: '1', nom: Jean-Jacques Candelier, parti: Parti communiste français,
+  site: www.jeanjacquescandelier.fr}
+- {departement: Pas-de-Calais, email_1: sjanquin@assemblee-nationale.fr, genre: M,
+  groupe: 'Socialiste, républicain et citoyen', id: serge-janquin, motion-gauche: '1',
+  nom: Serge Janquin, parti: Parti socialiste, site: null}
+- {departement: Somme, email_1: permanence@romainjoron.fr, email_2: rjoron@assemblee-nationale.fr,
+  genre: M, groupe: 'Socialiste, républicain et citoyen', id: romain-joron, motion-gauche: '1',
+  nom: Romain Joron, parti: null, site: www.romainjoron.fr}
+- {departement: Loire, email_1: rjuanico@assemblee-nationale.fr, genre: M, groupe: 'Socialiste,
+    républicain et citoyen', id: regis-juanico, motion-gauche: '1', nom: Régis Juanico,
+  parti: Parti socialiste, site: www.juanico.fr}
+- {departement: Moselle, email_1: lkalinowski@assemblee-nationale.fr, genre: M, groupe: 'Socialiste,
+    républicain et citoyen', id: laurent-kalinowski, motion-gauche: '1', nom: Laurent
+    Kalinowski, parti: Parti socialiste, site: null}
+- {departement: Charente, email_1: jlambert@assemblee-nationale.fr, genre: M, groupe: 'Radical,
+    républicain, démocrate et progressiste', id: jerome-lambert, motion-gauche: '1',
+  nom: Jérôme Lambert, parti: Parti socialiste, site: null}
+- {censure-1: '1', departement: Pyrénées-Atlantiques, email_1: jlassalle@assemblee-nationale.fr,
+  genre: M, groupe: Députés non inscrits, id: jean-lassalle, motion-gauche: '1', nom: Jean
+    Lassalle, parti: Le Centre pour la France, site: www.jeanlassalle.fr}
+- {departement: Ardennes, email_1: cleonard@assemblee-nationale.fr, genre: M, groupe: 'Socialiste,
+    républicain et citoyen', id: christophe-leonard, motion-gauche: '1', nom: Christophe
+    Léonard, parti: Parti socialiste, site: null}
+- {departement: Hérault, email_1: jlroumegas@assemblee-nationale.fr, genre: M, groupe: Écologiste,
+  id: jean-louis-roumegas, motion-gauche: '1', nom: Jean-Louis Roumégas, parti: Europe
+    Écologie Les Verts, site: roumegas.fr}
+- {departement: Val-de-Marne, email_1: jllaurent@assemblee-nationale.fr, genre: M,
+  groupe: 'Socialiste, républicain et citoyen', id: jean-luc-laurent, motion-gauche: '1',
+  nom: Jean-Luc Laurent, parti: Parti socialiste, site: www.jeanluclaurent.fr}
+- {departement: Gironde, email_1: n.mamere.circo@gmail.com, email_2: nmamere@assemblee-nationale.fr,
+  genre: M, groupe: Écologiste, id: noel-mamere, motion-gauche: '1', nom: Noël Mamère,
+  parti: Europe Écologie Les Verts, site: null}
+- {departement: Martinique, email_1: amarie-jeanne@assemblee-nationale.fr, genre: M,
+  groupe: Gauche démocrate et républicaine, id: alfred-marie-jeanne, motion-gauche: '1',
+  nom: Alfred Marie-Jeanne, parti: Mouvement Indépendantiste Martiniquais, site: null}
+- {censure-1: '1', departement: Morbihan, email_1: pnogues@assemblee-nationale.fr,
+  genre: M, groupe: Non inscrit, id: philippe-nogues, motion-gauche: '1', nom: Philippe
+    Noguès, parti: Non rattaché(s), site: null}
+- {departement: Nièvre, email_1: cpaul@assemblee-nationale.fr, genre: M, groupe: 'Socialiste,
+    républicain et citoyen', id: christian-paul, motion-gauche: '1', nom: Christian
+    Paul, parti: Parti socialiste, site: www.christianpaul.fr}
+- {censure-1: '1', departement: Martinique, email_1: jpnilor@assemblee-nationale.fr,
+  genre: M, groupe: Gauche démocrate et républicaine, id: jean-philippe-nilor, motion-gauche: '1',
+  nom: Jean-Philippe Nilor, parti: Mouvement Indépendantiste Martiniquais, site: www.jeanphilippenilor.com}
+- {departement: Val-d'Oise, email_1: jpblazy@assemblee-nationale.fr, genre: M, groupe: 'Socialiste,
+    républicain et citoyen', id: jean-pierre-blazy, motion-gauche: '1', nom: Jean-Pierre
+    Blazy, parti: Parti socialiste, site: null}
+- {departement: Essonne, email_1: mpouzol@assemblee-nationale.fr, genre: M, groupe: 'Socialiste,
+    républicain et citoyen', id: michel-pouzol, motion-gauche: '1', nom: Michel Pouzol,
+  parti: Parti socialiste, site: www.michelpouzol.com}
+- {departement: Gard, email_1: paprat@assemblee-nationale.fr, genre: M, groupe: 'Socialiste,
+    républicain et citoyen', id: patrice-prat, motion-gauche: '1', nom: Patrice Prat,
+  parti: Parti socialiste, site: www.patriceprat.fr}
+- {departement: Doubs, email_1: bromagnan@assemblee-nationale.fr, email_2: barbara.romagnan@gmail.com,
+  genre: F, groupe: 'Socialiste, républicain et citoyen', id: barbara-romagnan, motion-gauche: '1',
+  nom: Barbara Romagnan, parti: Parti socialiste, site: www.barbararomagnan.eu}
+- {censure-1: '1', departement: Cher, email_1: nsansu@assemblee-nationale.fr, genre: M,
+  groupe: Gauche démocrate et républicaine, id: nicolas-sansu, motion-gauche: '1',
+  nom: Nicolas Sansu, parti: Parti communiste français, site: null}
+- {departement: Essonne, email_1: esas@assemblee-nationale.fr, genre: F, groupe: Écologiste,
+  id: eva-sas, motion-gauche: '1', nom: Eva Sas, parti: Europe Écologie Les Verts,
+  site: null}
+- {departement: Val-d'Oise, email_1: gsebaoun@assemblee-nationale.fr, genre: M, groupe: 'Socialiste,
+    républicain et citoyen', id: gerard-sebaoun, motion-gauche: '1', nom: Gérard Sebaoun,
+  parti: Parti socialiste, site: www.gerardsebaoun.fr}
+- {departement: Charente-Maritime, email_1: stallard@assemblee-nationale.fr, genre: F,
+  groupe: 'Socialiste, républicain et citoyen', id: suzanne-tallard, motion-gauche: '1',
+  nom: Suzanne Tallard, parti: Parti socialiste, site: null}
+- {departement: Saône-et-Loire, email_1: tthevenoud@assemblee-nationale.fr, genre: M,
+  groupe: Députés non inscrits, id: thomas-thevenoud, motion-gauche: '1', nom: Thomas
+    Thévenoud, parti: Parti radical de gauche, site: www.thomasthevenoud.fr}
+- {departement: Moselle, email_1: paola.zanetti2012@gmail.com, email_2: pzanetti@assemblee-nationale.fr,
+  genre: F, groupe: 'Socialiste, républicain et citoyen', id: paola-zanetti, motion-gauche: '1',
+  nom: Paola Zanetti, parti: Parti socialiste, site: www.paolazanetti2012.com}

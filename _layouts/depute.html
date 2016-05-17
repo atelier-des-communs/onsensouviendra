@@ -17,15 +17,21 @@ layout: default
     <h1 class="post-title col-sm-12">Lettre ouverte à {{ prefixe }}{{ page.nom }}</h1>
 	<div class="article col-xs-12 col-sm-8 col-md-8">
 
-
     	{% markdown %}
     		{%include lettre.md %}
 		{% endmarkdown %}
 
-<h1>Réponse</h1>
+<h1><a name="reponse">Réponse</a></h1>
 
-{{ page.nom }} n'a pas encore apporté de réponse à cette lettre ouverte.
-
+{% if site.data.reponses[page.id]  %}
+	{% markdown %}
+{{ site.data.reponses[page.id] }}
+	{% endmarkdown %}
+{% else %}
+	{{ page.nom }} n'a pas encore apporté de réponse à cette lettre ouverte.
+	Vous pouvez envoyer vos réponses à <a href="mailto:contact@onsensouviendra.fr">contact@onsensouviendra.fr</a>
+{% endif %}
+  
 
 	</div>
 	<div class="blog-sidebar col-xs-12 col-sm-4 col-md-4">
@@ -74,28 +80,9 @@ layout: default
 
     <div class="row">
         <div class="col-xs-12">
-    	<div id="disqus_thread"></div>
-    	<script>
-			var disqus_config = function () {
-                this.page.identifier = {
-                {
-                    page.id
-                }
-            }
-                ;
-            };
 
-            (function () {
-                var d = document, s = d.createElement('script');
-                s.src = '//onsensouviendra.disqus.com/embed.js';
-                s.setAttribute('data-timestamp', +new Date());
-                (d.head || d.body).appendChild(s);
-            })();
-		</script>
-		<noscript>Please enable JavaScript to view the
-			<a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a>
-		</noscript>
-        </div>
+ <h1>Commentaires</h1>
+    	{% include disqus.html id=page.id %}
 </div>
 
 

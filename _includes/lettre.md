@@ -36,7 +36,7 @@ En refusant de voter la motion déposée par la droite, vous n'avez pas été au
 
 Nous savons combien le texte accompagnant la motion de droite est éloigné de vos convictions. Aucun électeur de gauche ne s'y trompe : Vos motivations sont diamétralement opposées à celles de la motion de droite.
 
-Ce texte n'a aucune valeur légale, n'engage en rien et n'a aucun impact sur l'effet de la censure. La censure de droite ou de gauche aura exactement le même effet : Dissolution du gouvernement Valls, et blocage de la loi travail. François Hollande nomera un nouveau premier ministre qui formera un nouveau gouvernement. La droite ne viendra pas au pouvoir. François Hollande n'a aucune raison d'y ajouter une dissolution de l'assemblée.  
+Ce texte n'a aucune valeur légale, n'engage en rien et n'a aucun impact sur l'effet de la censure. La censure de droite ou de gauche aura exactement le même effet : Dissolution du gouvernement Valls, et blocage de la loi travail. François Hollande nommera un nouveau premier ministre qui formera un nouveau gouvernement. La droite ne viendra pas au pouvoir. François Hollande n'a aucune raison d'y ajouter une dissolution de l'assemblée.  
 
 Vous pouvez, [comme Philippe Noguès](http://pnogues.fr/2016/05/12/pourquoi-jai-vote-la-censure/), faire une déclaration publique, expliquant les raisons de votre vote, vous désolidarisant ainsi, sans équivoque possible, du texte de la motion de droite.
 
